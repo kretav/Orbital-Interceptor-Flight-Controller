@@ -47,11 +47,9 @@ During edge-case regression tests, standard vector evaluation targeted the exact
 
 The software architecture resolved this by integrating a hardcoded spatial offset modifier directly into the C# execution layout, accounting for the combined structural bounding box dimensions (0.5m drone radius + 0.5m debris radius + 0.5m buffer zone): 
 
-csharp
 
 float distanceX = (targetDebris.position.x - transform.position.x) - 1.5f;
 
-Используйте код с осторожностью.
 
 This bounds evaluation guarantees an autonomous soft-dock holding sequence exactly 50cm clear of the targeted hardware shell. 
 
