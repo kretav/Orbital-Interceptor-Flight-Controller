@@ -16,7 +16,7 @@ This project demonstrates precision autonomous guidance in zero-gravity space en
 * **System Language:** C++17 (MSVC Compiler)
 * **Engine Framework:** Unity 2021.3.5f1 LTS
 * **Scripting Language:** C# (Structured Interop)
-* **Hardware Target:** Optimized for multi-threaded architectures (AMD Ryzen 9 execution verification)
+* **Hardware Target:** Optimized for multi-threaded architectures 
 
 [Unity 3D Rigidbody] ➔ (Reads velocity.x) ➔ [C# Interop Bridge]
          ▲                                            │
